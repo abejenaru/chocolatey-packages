@@ -1,6 +1,6 @@
 # If you change this value, also change it in the global settings
 # The name will also be saveDir
-$saveDir = "d:\bejenan_files\work\chocolatey\_chocolatey-auto-save"
+$saveDir = "c:\chocolatey-auto-save"
 
 Write-Host "Ensuring that the Ketarin auto save folder is set appropriately."
 if (!(Test-Path($saveDir))) {
