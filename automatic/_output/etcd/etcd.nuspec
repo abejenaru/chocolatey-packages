@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>etcd</id>
-    <version>{{PackageVersion}}</version>
+    <version>3.0.15</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
     <title>etcd (Install)</title>
@@ -31,7 +31,7 @@
 	Example: `choco install etcd -y --params="-discovery https://discovery.etcd.io/tokengoeshere"`
 	
 	The service is managed with NSSM, you can change the service parameters easily by running `nssm edit etcd`</description>
-    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v{{PackageVersion}}</releaseNotes>
+    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.0.15</releaseNotes>
     <dependencies>
       <dependency id="nssm" />
     </dependencies>
