@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>etcd</id>
-    <version>3.0.15</version>
+    <version>3.0.16</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
-    <owners>Andrei Bejenaru</owners>
+    <owners>Andrei Bejenaru, Robert Labrie</owners>
     <title>etcd (Install)</title>
     <authors>CoreOS</authors>
     <projectUrl>https://github.com/coreos/etcd</projectUrl>
@@ -30,8 +30,10 @@
 	The package will pass package parameters to the etcd service.
 	Example: `choco install etcd -y --params="-discovery https://discovery.etcd.io/tokengoeshere"`
 	
-	The service is managed with NSSM, you can change the service parameters easily by running `nssm edit etcd`</description>
-    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.0.15</releaseNotes>
+	The service is managed with NSSM, you can change the service parameters easily by running `nssm edit etcd`
+	
+	Originally packaged by Robert Labrie (https://github.com/tnwinc/chocolatey-etcd)</description>
+    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.0.16</releaseNotes>
     <dependencies>
       <dependency id="nssm" />
     </dependencies>

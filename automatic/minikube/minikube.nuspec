@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>minikube</id>
+    <version>{{PackageVersion}}</version>
+    <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
+    <owners>Andrei Bejenaru</owners>
+    <title>Minikube (Kubernetes local cluster)</title>
+    <authors>Google</authors>
+    <projectUrl>http://kubernetes.io</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/minikube.png</iconUrl>
+    <copyright>2016 Kubernetes</copyright>
+    <licenseUrl>https://github.com/kubernetes/minikube/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/kubernetes/minikube</projectSourceUrl>
+    <docsUrl>http://kubernetes.io/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/kubernetes/minikube/issues</bugTrackerUrl>
+    <tags>kubernetes minikube docker rkt containers devops</tags>
+    <summary>Minikube is a tool that makes it easy to run Kubernetes locally.</summary>
+    <description>Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.</description>
+    <releaseNotes>https://github.com/kubernetes/minikube/blob/v{{PackageVersion}}/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="kubernetes-cli" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
