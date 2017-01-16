@@ -7,13 +7,13 @@
     <owners>Andrei Bejenaru</owners>
     <title>Minikube (Kubernetes local cluster)</title>
     <authors>Google</authors>
-    <projectUrl>http://kubernetes.io</projectUrl>
+    <projectUrl>https://kubernetes.io</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/minikube.png</iconUrl>
     <copyright>2016 Kubernetes</copyright>
     <licenseUrl>https://github.com/kubernetes/minikube/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/kubernetes/minikube</projectSourceUrl>
-    <docsUrl>http://kubernetes.io/docs</docsUrl>
+    <docsUrl>https://kubernetes.io/docs</docsUrl>
     <bugTrackerUrl>https://github.com/kubernetes/minikube/issues</bugTrackerUrl>
     <tags>kubernetes minikube docker rkt containers devops</tags>
     <summary>Minikube is a tool that makes it easy to run Kubernetes locally.</summary>

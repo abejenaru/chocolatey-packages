@@ -1,6 +1,6 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
-$packageName  = '{{PackageName}}'
+$packageName  = 'pencil'
 $softwareName = 'Pencil*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 $installerType= 'EXE' 
 
