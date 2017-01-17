@@ -1,5 +1,4 @@
-﻿# stop on all errors
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName    = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'

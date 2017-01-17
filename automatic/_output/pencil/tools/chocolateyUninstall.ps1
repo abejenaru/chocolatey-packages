@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName  = 'pencil'
 $softwareName = 'Pencil*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-$installerType= 'EXE' 
+$installerType= 'EXE'
 
 $validExitCodes = @(0, 3010, 1605, 1614, 1641)
 if ($installerType -ne 'MSI') {
