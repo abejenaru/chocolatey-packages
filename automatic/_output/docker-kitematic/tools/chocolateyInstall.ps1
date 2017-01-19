@@ -1,6 +1,6 @@
 $packageName    = 'docker-kitematic'
-$url64          = 'https://github.com/docker/kitematic/releases/download/v0.12.0/Kitematic-0.12.0-Windows.zip'
-$checksum64     = '924a8c5021589f401b2f86373cb3378518b89cf695ad416d3307c2dac461d4c5'
+$url64          = 'https://github.com/docker/kitematic/releases/download/v0.13.0/Kitematic-0.13.0-Windows.zip'
+$checksum64     = '65fd75ec3ed9695be516ea6787f11aad1a3d754aa248adcfa174a21d6f9b9b44'
 $checksumType64 = 'sha256'
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

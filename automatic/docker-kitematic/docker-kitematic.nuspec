@@ -15,7 +15,7 @@
     <projectSourceUrl>https://github.com/docker/kitematic</projectSourceUrl>
     <docsUrl>https://docs.docker.com/kitematic/userguide</docsUrl>
     <bugTrackerUrl>https://github.com/docker/kitematic/issues</bugTrackerUrl>
-    <tags>docker-kitematic docker containers devops</tags>
+    <tags>kitematic docker containers devops</tags>
     <summary>Visual Docker Container Manager</summary>
     <description>Kitematic is a simple application for managing Docker containers on Mac, Linux and Windows.</description>
     <releaseNotes>https://github.com/docker/kitematic/releases/tag/v{{PackageVersion}}</releaseNotes>
