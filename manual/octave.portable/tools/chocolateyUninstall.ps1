@@ -6,7 +6,7 @@ $progDir    = "$toolsDir\octave-$version"
 
 # Remove desktop shortcut
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-$link = Join-Path $desktop "Octave $version (Portable).lnk"
+$link = Join-Path $desktop "Octave.lnk"
 If (Test-Path $link) {
     Remove-Item "$link"
 }

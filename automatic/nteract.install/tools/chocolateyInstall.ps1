@@ -11,13 +11,17 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
 
-  softwareName  = 'Pencil*'
+  softwareName  = 'nteract*'
 
   checksum      = '{{Checksum}}'
   checksumType  = 'sha256'
-  
+
   silentArgs   = '/S' # NSIS
   validExitCodes= @(0)
 }
 
 Install-ChocolateyPackage @packageArgs
+
+# Install ipykernel to get started directly
+Start-ChocolateyProcessAsAdmin "&python -m pip install ipykernel"
+Start-ChocolateyProcessAsAdmin "&python -m ipykernel install --user"

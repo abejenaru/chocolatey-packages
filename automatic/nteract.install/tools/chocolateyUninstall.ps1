@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName  = '{{PackageName}}'
-$softwareName = 'Pencil*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-$installerType= 'EXE'
+$packageName = '{{PackageName}}'
+$softwareName = 'nteract*'
+$installerType = 'EXE'
 
 $silentArgs = '/qn /norestart'
 $validExitCodes = @(0, 3010, 1605, 1614, 1641)

@@ -1,15 +1,11 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
-$packageName  = '{{PackageName}}'
-$softwareName = 'Pencil*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-$installerType= 'EXE'
+$packageName = 'nteract.install'
+$softwareName = 'nteract*'
+$installerType = 'EXE'
 
-$silentArgs = '/qn /norestart'
-$validExitCodes = @(0, 3010, 1605, 1614, 1641)
-if ($installerType -ne 'MSI') {
-  $silentArgs = '/S' # NSIS
-  $validExitCodes = @(0)
-}
+$silentArgs = '/S' # NSIS
+# $validExitCodes = @(0)
 
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
@@ -21,7 +17,7 @@ if ($key.Count -eq 1) {
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
                                 -SilentArgs "$silentArgs" `
-                                -ValidExitCodes $validExitCodes `
+                                # -ValidExitCodes $validExitCodes `
                                 -File "$file"
   }
 } elseif ($key.Count -eq 0) {

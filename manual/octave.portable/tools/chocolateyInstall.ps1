@@ -29,7 +29,7 @@ Install-BinFile -Name "octave" -Path "$progDir\bin\octave-cli.exe"
 
 # Create desktop shortcut
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-$link = Join-Path $desktop "Octave $version (Portable).lnk"
+$link = Join-Path $desktop "Octave.lnk"
 if (!(Test-Path $link)) {
     Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$progDir\octave.vbs" -WorkingDirectory "$progDir" -Arguments '--force-gui' -IconLocation "$progDir\share\octave\4.2.0\imagelib\octave-logo.ico"
 }
