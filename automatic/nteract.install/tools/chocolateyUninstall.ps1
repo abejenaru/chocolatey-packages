@@ -4,12 +4,8 @@ $packageName = '{{PackageName}}'
 $softwareName = 'nteract*'
 $installerType = 'EXE'
 
-$silentArgs = '/qn /norestart'
-$validExitCodes = @(0, 3010, 1605, 1614, 1641)
-if ($installerType -ne 'MSI') {
-  $silentArgs = '/S' # NSIS
-  $validExitCodes = @(0)
-}
+$silentArgs = '/S' # NSIS
+$validExitCodes = @(0)
 
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
@@ -17,6 +13,8 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | % { 
     $file = "$($_.UninstallString)"
+    $file = $file -replace '" /currentuser$', ''
+    $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
