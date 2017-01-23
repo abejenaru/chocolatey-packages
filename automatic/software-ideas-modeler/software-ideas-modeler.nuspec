@@ -16,7 +16,9 @@
     <bugTrackerUrl>https://www.softwareideas.net/en/requests</bugTrackerUrl>
     <tags>uml bpmn CASE diagram modeler modeling tool admin</tags>
     <summary>Agile CASE tool for software design and analysis</summary>
-    <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support</description>
+    <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support
+
+**Known package issues**: Uninstall is not entirely silent; please issue a Pull request for a workaround via AutoHotkey.</description>
     <releaseNotes>https://www.softwareideas.net/en/news</releaseNotes>
   </metadata>
   <files>
