@@ -1,10 +1,10 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
-$packageName  = '{{PackageName}}'
-$softwareName = 'nteract*'
+$packageName  = 'software-ideas-modeler'
+$softwareName = 'Software Ideas Modeler*'
 $installerType= 'EXE'
 
-$silentArgs = '/S' # NSIS
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
 $validExitCodes = @(0)
 
 $uninstalled = $false
@@ -13,8 +13,6 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | % { 
     $file = "$($_.UninstallString)"
-    $file = $file -replace '" /currentuser$', ''
-    $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
