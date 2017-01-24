@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'nteract.install'
+$packageName  = 'nteract.install'
 $softwareName = 'nteract*'
-$installerType = 'EXE'
+$installerType= 'EXE'
 
 $silentArgs = '/S' # NSIS
 $validExitCodes = @(0)
