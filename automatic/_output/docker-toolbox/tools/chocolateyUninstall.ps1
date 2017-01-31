@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName  = 'pencil'
-$softwareName = 'Pencil*'
+$packageName  = 'docker-toolbox'
+$softwareName = 'Docker Toolbox*'
 $installerType= 'EXE'
 
-$silentArgs = '/S'           # NSIS
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
 $validExitCodes = @(0)
 
 $uninstalled = $false
@@ -13,6 +13,8 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | % { 
     $file = "$($_.UninstallString)"
+    $file = $file -replace '"$', ''
+    $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `

@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
-$packageName  = 'pencil'
-$softwareName = 'Pencil*'
+$packageName  = '{{PackageName}}'
+$softwareName = 'Docker Toolbox*'
 $installerType= 'EXE'
 
-$silentArgs = '/S'           # NSIS
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
 $validExitCodes = @(0)
 
 $uninstalled = $false

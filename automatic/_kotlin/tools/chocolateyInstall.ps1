@@ -11,5 +11,8 @@ $kotlin_home    = Join-Path $toolsDir "$packageName-$packageVersion"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" -UnzipLocation "$toolsDir" -Url "$url" -Checksum "$checksum" -ChecksumType "$checksumType"
 
+# Rename unzipped folder
+Rename-Item "$toolsDir\kotlinc" "$kotlin_home"
+
 Install-ChocolateyEnvironmentVariable -VariableName 'KOTLIN_HOME' -VariableValue "$kotlin_home" -VariableType 'Machine'
 Install-ChocolateyPath -PathToInstall "%KOTLIN_HOME%\bin" -PathType 'Machine'
