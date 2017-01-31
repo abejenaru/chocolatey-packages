@@ -11,7 +11,7 @@ $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir     = "C:\ProgramData\etcd"
 
 
-Install-ChocolateyZipPackage -PackageName "$packageName" -Url64 "$url64" -UnzipLocation "$installDir" -ChecksumType64 "$checksumType64" -Checksum64 "$checksum64"
+Install-ChocolateyZipPackage -PackageName "$packageName" -UnzipLocation "$installDir" -Url64 "$url64" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType64"
 
 # check OS bitness
 if (!([Environment]::Is64BitOperatingSystem)) {
