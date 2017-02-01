@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ealite</id>
+    <version>13.0.1309</version>
+    <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
+    <owners>Andrei Bejenaru</owners>
+    <title>Enterprise Architect Viewer</title>
+    <authors>Sparx Systems</authors>
+    <projectUrl>http://www.sparxsystems.com/products/ea</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/ealite.png</iconUrl>
+    <copyright>(c) 1998-2016 Sparx Systems</copyright>
+    <licenseUrl>http://www.sparxsystems.com/products/ea/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://www.sparxsystems.com/enterprise_architect_user_guide/13.0/index/index.html</docsUrl>
+    <mailingListUrl>http://www.sparxsystems.com/press/newsletter/subscribe.html</mailingListUrl>
+    <bugTrackerUrl>http://www.sparxsystems.com/support/forms/bug_report.html</bugTrackerUrl>
+    <tags>ea ealite enterprise architect viewer reader uml modeling admin</tags>
+    <summary>Enterprise Architect Lite provides a free viewer for Enterprise Architect models.</summary>
+    <description>Enterprise Architect Lite provides a free viewer for Enterprise Architect models. This read-only edition is intended for distribution with UML models, to staff or to customers. It supports all viewing functions, however document generation and model editing abilities have been disabled.</description>
+    <releaseNotes>http://www.sparxsystems.com/products/ea/history.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
