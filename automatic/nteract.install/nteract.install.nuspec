@@ -14,12 +14,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/nteract/nteract</projectSourceUrl>
     <bugTrackerUrl>https://github.com/nteract/nteract/issues</bugTrackerUrl>
-    <tags>nteract python jupyter scientific numerical computation data analysis analytics statistics visualization plot graph chart</tags>
+    <tags>nteract python jupyter scientific numerical computation data analysis analytics statistics visualization plot graph chart admin</tags>
     <summary>nteract is a desktop application that allows you to develop rich documents that contain prose, executable code (in almost any language!), and images. Whether you're a developer, data scientist, researcher, or journalist, nteract helps you write your next code-driven story.</summary>
     <description>nteract is a literate coding environment that supports Python, R, JavaScript and other Jupyter kernels. It wraps up the best of the web based Jupyter notebook and embeds it as a desktop application that allows you to open notebooks natively on your system.</description>
     <releaseNotes>https://github.com/nteract/nteract/releases/tag/v{{PackageVersion}}</releaseNotes>
     <dependencies>
-      <dependency id="python2"/>
+      <dependency id="python2" version="2.7.12"/>
     </dependencies>
   </metadata>
   <files>

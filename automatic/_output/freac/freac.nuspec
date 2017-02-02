@@ -24,10 +24,7 @@
 * Completely free and open source without any ads or other malware</description>
     <releaseNotes>https://www.freac.org/index.php/en/latest-news-mainmenu-2</releaseNotes>
     <dependencies>
-      <dependency id="freac.portable" />
+      <dependency id="freac.portable" version="1.0.27"/>
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
