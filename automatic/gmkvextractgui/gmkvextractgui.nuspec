@@ -25,7 +25,7 @@
 * Support all MKVToolnix versions from v4.x and newer</description>
     <releaseNotes>http://forum.doom9.org/showthread.php?t=170249</releaseNotes>
     <dependencies>
-      <dependency id="mkvtoolnix" />
+      <dependency id="mkvtoolnix" version="9.4.0"/>
     </dependencies>
   </metadata>
   <files>
