@@ -6,7 +6,7 @@ $checksumType64 = 'sha256'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 
-Install-ChocolateyZipPackage -PackageName "$packageName" -Url64 "$url64" -UnzipLocation "$toolsDir" -ChecksumType64 "$checksumType64" -Checksum64 "$checksum64"
+Install-ChocolateyZipPackage -PackageName "$packageName" -UnzipLocation "$toolsDir" -Url64 "$url64" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType64"
 
 # check OS bitness
 if (!([Environment]::Is64BitOperatingSystem)) {
