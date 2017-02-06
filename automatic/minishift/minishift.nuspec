@@ -5,7 +5,7 @@
     <version>{{PackageVersion}}</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
-    <title>Minishift (OpenShift Origin local)</title>
+    <title>Minishift: Run OpenShift locally</title>
     <authors>Google</authors>
     <projectUrl>https://openshift.org</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/minishift.png</iconUrl>
