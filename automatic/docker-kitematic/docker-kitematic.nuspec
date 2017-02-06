@@ -5,7 +5,7 @@
     <version>{{PackageVersion}}</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
-    <title>Kitematic for Docker</title>
+    <title>Kitematic: Visual client for Docker</title>
     <authors>Kitematic, Docker</authors>
     <projectUrl>https://kitematic.com</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kitematic.png</iconUrl>
