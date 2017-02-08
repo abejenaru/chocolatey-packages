@@ -1,12 +1,12 @@
 $packageName    = 'docker-kitematic'
-$url64          = 'https://github.com/docker/kitematic/releases/download/v0.13.0/Kitematic-0.13.0-Windows.zip'
-$checksum64     = '65fd75ec3ed9695be516ea6787f11aad1a3d754aa248adcfa174a21d6f9b9b44'
+$url64          = 'https://github.com/docker/kitematic/releases/download/v0.13.1/Kitematic-0.13.1-Windows.zip'
+$checksum64     = 'a0aabd6d1ab036455c0d5f7688e81d527955c63d24029e9ae262d2732a1cf943'
 $checksumType64 = 'sha256'
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 
-Install-ChocolateyZipPackage -PackageName "$packageName" -Url64 "$url64" -UnzipLocation "$toolsDir" -ChecksumType64 "$checksumType64" -Checksum64 "$checksum64"
+Install-ChocolateyZipPackage -PackageName "$packageName" -UnzipLocation "$toolsDir" -Url64 "$url64" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType64"
 
 # check OS bitness
 if (!([Environment]::Is64BitOperatingSystem)) {
