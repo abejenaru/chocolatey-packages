@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName= 'nteract.install'
-$url        = 'https://github.com/nteract/nteract/releases/download/v0.0.15/nteract-0.0.15.exe'
+$url        = 'https://github.com/nteract/nteract/releases/download/v0.1.0/nteract.Setup.0.1.0.exe'
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'nteract*'
 
-  checksum      = '95d0a97e49c9e9cb376274e3ea998852cd838dd0e63ed50018f4e03497f60c3f'
+  checksum      = 'b66affe1b48f2e8479beba8743a8e288c10010c17b6eb46c3743f656ad13dd9d'
   checksumType  = 'sha256'
 
   silentArgs   = '/S' # NSIS
