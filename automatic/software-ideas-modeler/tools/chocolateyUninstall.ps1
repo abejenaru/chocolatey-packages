@@ -4,7 +4,7 @@ $packageName  = '{{PackageName}}'
 $softwareName = 'Software Ideas Modeler*'
 $installerType= 'EXE'
 
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /NOMSG=1' # Inno Setup
 $validExitCodes = @(0)
 
 $uninstalled = $false
