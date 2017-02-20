@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>docker-kitematic</id>
+    <version>0.13.1</version>
+    <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
+    <owners>Andrei Bejenaru</owners>
+    <title>Kitematic: Visual client for Docker</title>
+    <authors>Kitematic, Docker</authors>
+    <projectUrl>https://kitematic.com</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kitematic.png</iconUrl>
+    <copyright>2016 Docker</copyright>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/docker/kitematic</projectSourceUrl>
+    <docsUrl>https://docs.docker.com/kitematic/userguide</docsUrl>
+    <bugTrackerUrl>https://github.com/docker/kitematic/issues</bugTrackerUrl>
+    <tags>kitematic docker containers devops</tags>
+    <summary>Visual Docker Container Manager</summary>
+    <description>Kitematic is a simple application for managing Docker containers on Mac, Linux and Windows.</description>
+    <releaseNotes>https://github.com/docker/kitematic/releases/tag/v0.13.1</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

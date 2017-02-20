@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>freac.portable</id>
-    <version>{{PackageVersion}}</version>
+    <id>freac</id>
+    <version>1.0.28</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
-    <title>fre:ac - free audio converter (Portable)</title>
+    <title>fre:ac - free audio converter</title>
     <authors>Robert Kausch</authors>
     <projectUrl>https://www.freac.org</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/freac.png</iconUrl>
@@ -24,8 +24,8 @@
 * Portable application to install on a USB drive and run everywhere
 * Completely free and open source without any ads or other malware</description>
     <releaseNotes>https://www.freac.org/index.php/en/latest-news-mainmenu-2</releaseNotes>
+    <dependencies>
+      <dependency id="freac.portable" version="[1.0.28]"/>
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
