@@ -11,8 +11,10 @@ $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
 
 if ($key.Count -eq 1) {
-  $key | % { 
+  $key | % {
     $file = "$($_.UninstallString)"
+    $file = $file -replace '"$', ''
+    $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `

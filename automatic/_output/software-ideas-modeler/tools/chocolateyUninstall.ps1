@@ -4,15 +4,17 @@ $packageName  = 'software-ideas-modeler'
 $softwareName = 'Software Ideas Modeler*'
 $installerType= 'EXE'
 
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /NOMSG=1' # Inno Setup
 $validExitCodes = @(0)
 
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
 
 if ($key.Count -eq 1) {
-  $key | % { 
+  $key | % {
     $file = "$($_.UninstallString)"
+    $file = $file -replace '"$', ''
+    $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
