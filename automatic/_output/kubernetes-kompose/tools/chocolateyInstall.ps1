@@ -1,6 +1,6 @@
 $packageName    = 'kubernetes-kompose'
-$url64          = 'https://github.com/kubernetes-incubator/kompose/releases/download/v0.2.0/kompose-windows-amd64.exe'
-$checksum64     = '43cf92a28a3c94a43a474fd2eaa3285dc4a8448453eff3b7357191db2995e351'
+$url64          = 'https://github.com/kubernetes-incubator/kompose/releases/download/v0.3.0/kompose-windows-amd64.exe'
+$checksum64     = '60a9aa314810d141ac739163257bb4e3164660f1d8f486c70664d901d1605945'
 $checksumType64 = 'sha256'
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
