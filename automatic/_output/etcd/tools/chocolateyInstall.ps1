@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName    = 'etcd'
-$packageVersion = '3.1.1'
-$url64          = 'https://github.com/coreos/etcd/releases/download/v3.1.1/etcd-v3.1.1-windows-amd64.zip'
-$checksum64     = 'a585b31367d57390fefd0e6cb6d50b14e3716efd3d30689f5061ff9a779f00a5'
+$packageVersion = '3.1.2'
+$url64          = 'https://github.com/coreos/etcd/releases/download/v3.1.2/etcd-v3.1.2-windows-amd64.zip'
+$checksum64     = 'fc2f22b53982c1e4865ac1b235216769f069b180ab5d69e2867a45d7972da3ca'
 $checksumType64 = 'sha256'
 
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>etcd</id>
-    <version>3.1.1</version>
+    <version>3.1.2</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru, Robert Labrie</owners>
     <title>etcd (Install)</title>
@@ -33,7 +33,7 @@
 	The service is managed with NSSM, you can change the service parameters easily by running `nssm edit etcd`
 	
 	Originally packaged by Robert Labrie (https://github.com/tnwinc/chocolatey-etcd)</description>
-    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.1.1</releaseNotes>
+    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.1.2</releaseNotes>
     <dependencies>
       <dependency id="nssm" />
     </dependencies>
