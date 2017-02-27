@@ -16,9 +16,7 @@
     <bugTrackerUrl>https://www.softwareideas.net/en/requests</bugTrackerUrl>
     <tags>uml bpmn CASE diagram modeler modeling tool viewer admin</tags>
     <summary>Free viewer for Software Ideas Modeler Projects (.simp files)</summary>
-    <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support
-
-**Known package issues**: Uninstall is not entirely silent; please issue a Pull request for a workaround via AutoHotkey.</description>
+    <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support</description>
     <releaseNotes>https://www.softwareideas.net/en/news</releaseNotes>
   </metadata>
   <files>
