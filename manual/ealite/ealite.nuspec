@@ -8,7 +8,7 @@
     <title>Enterprise Architect Viewer</title>
     <authors>Sparx Systems</authors>
     <projectUrl>http://www.sparxsystems.com/products/ea</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/ealite.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/ealite.png</iconUrl>
     <copyright>(c) 1998-2016 Sparx Systems</copyright>
     <licenseUrl>http://www.sparxsystems.com/products/ea/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

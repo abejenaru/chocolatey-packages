@@ -8,7 +8,7 @@
     <title>Kotlin programming language</title>
     <authors>JetBrains</authors>
     <projectUrl>https://kotlinlang.org</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kotlin.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/kotlin.png</iconUrl>
     <copyright>(c) 2000–2017 JetBrains</copyright>
     <licenseUrl>https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

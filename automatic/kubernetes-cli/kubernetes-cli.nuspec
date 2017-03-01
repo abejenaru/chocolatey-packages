@@ -8,7 +8,7 @@
     <title>kubectl: Kubernetes command line tool</title>
     <authors>Google</authors>
     <projectUrl>https://kubernetes.io</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kubernetes.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/kubernetes.png</iconUrl>
     <copyright>2016 Kubernetes</copyright>
     <licenseUrl>https://github.com/kubernetes/kubernetes/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

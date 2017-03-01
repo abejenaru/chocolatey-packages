@@ -8,7 +8,7 @@
     <title>Kitematic: Visual client for Docker</title>
     <authors>Kitematic, Docker</authors>
     <projectUrl>https://kitematic.com</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kitematic.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/kitematic.png</iconUrl>
     <copyright>2016 Docker</copyright>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

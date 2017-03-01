@@ -8,7 +8,7 @@
     <title>Pencil</title>
     <authors>Evolus</authors>
     <projectUrl>http://pencil.evolus.vn/Next.html</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/pencil3.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/pencil.png</iconUrl>
     <copyright>(c) 2008-2017 Evolus</copyright>
     <licenseUrl>https://github.com/evolus/pencil/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

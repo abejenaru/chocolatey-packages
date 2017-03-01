@@ -8,7 +8,7 @@
     <owners>Andrei Bejenaru</owners>
     <licenseUrl>https://www.gnu.org/software/octave/license.html</licenseUrl>
     <projectUrl>http://www.gnu.org/software/octave</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/octave.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/octave.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>GNU Octave is a high-level language, primarily intended for numerical computations. It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.
 

@@ -8,7 +8,7 @@
     <title>Kompose: Move Docker Compose to Kubernetes</title>
     <authors>Kubernetes authors</authors>
     <projectUrl>http://kompose.io</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/kubernetes.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/kubernetes.png</iconUrl>
     <licenseUrl>https://github.com/kubernetes-incubator/kompose/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/kubernetes-incubator/kompose</projectSourceUrl>

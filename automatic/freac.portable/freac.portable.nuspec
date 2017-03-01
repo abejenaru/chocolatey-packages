@@ -8,7 +8,7 @@
     <title>fre:ac - free audio converter (Portable)</title>
     <authors>Robert Kausch</authors>
     <projectUrl>https://www.freac.org</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/freac.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/freac.png</iconUrl>
     <copyright>2017 Robert Kausch</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

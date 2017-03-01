@@ -8,7 +8,7 @@
     <title>Minishift: Run OpenShift locally</title>
     <authors>RedHat, Minishift contributors</authors>
     <projectUrl>https://openshift.org</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/minishift.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/minishift.png</iconUrl>
     <copyright>2016 RedHat</copyright>
     <licenseUrl>https://github.com/minishift/minishift/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
