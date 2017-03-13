@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>etcd</id>
+    <version>3.1.3</version>
+    <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
+    <owners>Andrei Bejenaru, Robert Labrie</owners>
+    <title>etcd (Install)</title>
+    <authors>CoreOS</authors>
+    <projectUrl>https://github.com/coreos/etcd</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/etcd.png</iconUrl>
+    <copyright>2016 CoreOS, Inc</copyright>
+    <licenseUrl>https://github.com/coreos/etcd/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/coreos/etcd</projectSourceUrl>
+    <docsUrl>https://coreos.com/etcd/docs/latest</docsUrl>
+    <bugTrackerUrl>https://github.com/coreos/etcd/issues</bugTrackerUrl>
+    <tags>etcd configuration admin</tags>
+    <summary>etcd is a distributed, consistent key-value store for shared configuration and service discovery</summary>
+    <description>etcd is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:
+
+    * Simple: curl'able user facing API (HTTP+JSON)
+    * Secure: optional SSL client cert authentication
+    * Fast: benchmarked 1000s of writes/s per instance
+    * Reliable: properly distributed using Raft
+
+	etcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log.
+	This package installs etcd as a service, and makes etcdctl.exe available in the path. 
+	
+	The package will pass package parameters to the etcd service.
+	Example: `choco install etcd -y --params="-discovery https://discovery.etcd.io/tokengoeshere"`
+	
+	The service is managed with NSSM, you can change the service parameters easily by running `nssm edit etcd`
+	
+	Originally packaged by Robert Labrie (https://github.com/tnwinc/chocolatey-etcd)</description>
+    <releaseNotes>https://github.com/coreos/etcd/releases/tag/v3.1.3</releaseNotes>
+    <dependencies>
+      <dependency id="nssm" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
