@@ -9,7 +9,7 @@
     <authors>CoreOS</authors>
     <projectUrl>https://github.com/coreos/etcd</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/etcd.png</iconUrl>
-    <copyright>2016 CoreOS, Inc</copyright>
+    <copyright>(c) 2017 CoreOS, Inc</copyright>
     <licenseUrl>https://github.com/coreos/etcd/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/coreos/etcd</projectSourceUrl>

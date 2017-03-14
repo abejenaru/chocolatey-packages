@@ -9,7 +9,7 @@
     <authors>R Project, Microsoft</authors>
     <projectUrl>https://mran.microsoft.com/open</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/r-open.png</iconUrl>
-    <copyright>2016 Microsoft</copyright>
+    <copyright>(c) 2016 Microsoft</copyright>
     <licenseUrl>https://mran.microsoft.com/assets/text/mkl-eula.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Microsoft/microsoft-r-open</projectSourceUrl>

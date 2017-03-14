@@ -9,7 +9,7 @@
     <authors>Evolus, prikhi</authors>
     <projectUrl>http://pencil.evolus.vn/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/pencil.png</iconUrl>
-    <copyright>2008-2016 Evolus</copyright>
+    <copyright>(c) 2008-2017 Evolus</copyright>
     <licenseUrl>https://github.com/prikhi/pencil/blob/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/prikhi/pencil</projectSourceUrl>
