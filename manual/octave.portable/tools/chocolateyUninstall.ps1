@@ -1,7 +1,5 @@
-﻿$packageVersion = '4.2.0'
-
-$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$progDir        = "$toolsDir\octave"
+﻿$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$progDir    = "$toolsDir\octave"
 
 
 # Remove desktop shortcut

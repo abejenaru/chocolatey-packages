@@ -13,7 +13,7 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | % { 
     $file = "$($_.UninstallString)"
-    $file = $file -replace '" /currentuser$', ''
+    $file = $file -replace '" /allusers$', ''
     $file = $file -replace '^"', ''
 
     Uninstall-ChocolateyPackage -PackageName $packageName `

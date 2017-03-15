@@ -1,5 +1,5 @@
 ﻿$packageName    = 'octave.portable'
-$packageVersion = '4.2.0'
+$packageVersion = '4.2.1'
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $progDir        = "$toolsDir\octave"
@@ -9,8 +9,8 @@ $osBitness      = Get-ProcessorBits
 $baseUrl        = "https://ftp.gnu.org/gnu/octave/windows"
 $url            = "$baseUrl/octave-$packageVersion-w32.zip"
 $url64          = "$baseUrl/octave-$packageVersion-w64.zip"
-$checksum       = '4be2c451a2757b80f21bfc06d48a59a49e5ed00b0461471da9bce565efac79fa'
-$checksum64     = '58ac8da90984bfb241dbab68b9857776ceee32b01176085bd6e4f01ca5a3d91f'
+$checksum       = ''
+$checksum64     = 'a60254e85da78105c2aa35474c1eff35d14f22fd1832b9daa339446d46752b5b'
 $checksumType   = 'sha256'
 $checksumType64 = 'sha256'
 
