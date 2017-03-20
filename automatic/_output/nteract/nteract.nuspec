@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>nteract</id>
-    <version>0.1.0.20170315</version>
+    <version>0.1.0</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
     <title>nteract</title>
@@ -31,7 +31,7 @@ Use either with Python v2 or Python v3, standalone or within Anaconda/Miniconda 
  * Add manual installation help.</description>
     <releaseNotes>https://github.com/nteract/nteract/releases/tag/v0.1.0</releaseNotes>
     <dependencies>
-      <dependency id="nteract.install" version="[0.1.0.20170315]"/>
+      <dependency id="nteract.install" version="[0.1.0]"/>
     </dependencies>
   </metadata>
 </package>
