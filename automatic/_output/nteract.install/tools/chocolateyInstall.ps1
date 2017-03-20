@@ -23,5 +23,8 @@ $packageArgs = @{
 Install-ChocolateyPackage @packageArgs
 
 # Install ipykernel to get started directly
-Start-ChocolateyProcessAsAdmin "&python -m pip install ipykernel"
-Start-ChocolateyProcessAsAdmin "&python -m ipykernel install --user"
+try {
+  &python -m pip install ipykernel
+  &python -m ipykernel install --user
+} catch {
+}

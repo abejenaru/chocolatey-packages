@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+$ErrorActionPreference = 'Stop';
 
 $packageName= 'ealite'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -12,10 +12,10 @@ $packageArgs = @{
 
   softwareName  = 'Enterprise Architect*'
 
-  checksum      = 'c6250de184ae33c0f6de45b55cf914c7e6ee36e5a698326738908ed9d2b7b9eb'
+  checksum      = '33169c88263b096cdedb35bafc3f0de94a9c6cea6a7722b3ddf761ffb0affb65'
   checksumType  = 'sha256'
   
-  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
+  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
 }
 

@@ -8,14 +8,24 @@
     <title>Raw File Converter EX 2.0 (Powered by SILKYPIX)</title>
     <authors>Ichikawa Soft Laboratory Co.,Ltd.</authors>
     <projectUrl>http://www.fujifilm.com/support/digital_cameras/software/myfinepix_studio/rfc/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/freac.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/fujifilm.png</iconUrl>
     <copyright>(c) 2017 Fujifilm</copyright>
     <licenseUrl>http://www.fujifilm.com/support/digital_cameras/software/myfinepix_studio/rfc_2/win/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <docsUrl>At what url are the software docs located?</docsUrl>
     <tags>fuji image photo raf converter editor admin</tags>
-    <summary>__REPLACE__</summary>
-    <description>
+    <summary>Official Raw image file (RAF) converter for Fujifilm digital cameras</summary>
+    <description>Official Raw image file (RAF) converter for Fujifilm digital cameras.
+
+### Supported cameras and models:
+* FUJIFILM GFX 50S
+* FUJIFILM X-T20 / X100F
+* FUJIFILM X-A10
+* FUJIFILM X-A3
+* FUJIFILM X-T2
+* FUJIFILM X-Pro2 / X-E2S / X70
+* FUJIFILM X-T10
+* FUJIFILM X-Pro1 / X-E1 / X-E2 / X-M1 / X-A1 / X100 / X100S / X10 / X20 / XF1 / XQ1 / X-S1
+* FUJIFILM X-T1 / X-T1 Graphite Silver Edition / X-A2 / X100T / X30 / XQ2
 </description>
     <releaseNotes>http://www.fujifilm.com/support/digital_cameras/software/myfinepix_studio/rfc_2/win/</releaseNotes>
   </metadata>

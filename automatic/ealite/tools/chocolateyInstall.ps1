@@ -1,30 +1,22 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName= '{{PackageName}}'
-$url        = '{{DownloadUrl}}'
-
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url        = '{{DownloadUrl}}'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
-  fileType      = 'EXE'
+  fileType      = 'MSI'
   url           = $url
 
-  softwareName  = 'nteract*'
+  softwareName  = 'Enterprise Architect*'
 
   checksum      = '{{Checksum}}'
   checksumType  = 'sha256'
-
-  silentArgs   = '/S' # NSIS
-  validExitCodes= @(0)
+  
+  silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
+  validExitCodes= @(0, 3010, 1641)
 }
 
 Install-ChocolateyPackage @packageArgs
-
-# Install ipykernel to get started directly
-try {
-  Start-ChocolateyProcessAsAdmin "&python -m pip install ipykernel"
-  Start-ChocolateyProcessAsAdmin "&python -m ipykernel install --user"    
-} catch {
-}

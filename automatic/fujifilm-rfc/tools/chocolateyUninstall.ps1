@@ -4,11 +4,9 @@ $packageName = 'fujifilm-rfc'
 $softwareName = 'fujifilm-rfc*'
 $installerType = 'EXE' 
 
-if ($installerType -ne 'MSI') {
-  # InstallShield
-  $silentArgs = '/s'
-  $validExitCodes = @(0)
-}
+# InstallShield
+$silentArgs = '/s'
+$validExitCodes = @(0)
 
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
