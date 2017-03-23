@@ -8,7 +8,7 @@
     <title>gMKVExtractGUI</title>
     <authors>gpower2</authors>
     <projectUrl>http://forum.doom9.org/showthread.php?t=170249</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/mkvtoolnix.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/mkvtoolnix.png</iconUrl>
     <projectSourceUrl>https://sourceforge.net/p/gmkvextractgui/code</projectSourceUrl>
     <bugTrackerUrl>http://forum.doom9.org/showthread.php?t=170249</bugTrackerUrl>
     <tags>mkv mkvtoolnix media video splitter demuxing matroska</tags>

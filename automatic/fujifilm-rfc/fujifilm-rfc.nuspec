@@ -8,7 +8,7 @@
     <title>Raw File Converter EX 2.0 (Powered by SILKYPIX)</title>
     <authors>Ichikawa Soft Laboratory Co.,Ltd.</authors>
     <projectUrl>http://www.fujifilm.com/support/digital_cameras/software/myfinepix_studio/rfc/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/master/icons/fujifilm.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/fujifilm.png</iconUrl>
     <copyright>(c) 2017 Fujifilm</copyright>
     <licenseUrl>http://www.fujifilm.com/support/digital_cameras/software/myfinepix_studio/rfc_2/win/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

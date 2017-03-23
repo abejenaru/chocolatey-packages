@@ -8,7 +8,7 @@
     <title>nteract</title>
     <authors>nteract contributors</authors>
     <projectUrl>https://nteract.io/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/22402d9862453609cf450ac4347331ffb9598afa/icons/nteract.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/nteract.png</iconUrl>
     <copyright>(c) 2017 nteract</copyright>
     <licenseUrl>https://github.com/nteract/nteract/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
