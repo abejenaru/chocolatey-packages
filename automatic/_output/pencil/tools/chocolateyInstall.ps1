@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName= 'pencil'
-$url        = 'http://pencil.evolus.vn/dl/V3.0.0/Pencil-Setup-3.0.0.exe'
+$url        = 'http://pencil.evolus.vn/dl/V3.0.1/Pencil-Setup-3.0.1.exe'
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'Pencil*'
 
-  checksum      = '57292b48658ce69f38cf23a9f81c30050897389d92e84fb5306faadb64c3d029'
+  checksum      = '96a0fd0c353388a5578080d2f1f3d07026b544dad01120d7eff3e9f96af1661a'
   checksumType  = 'sha256'
   
   silentArgs   = '/S' # NSIS
