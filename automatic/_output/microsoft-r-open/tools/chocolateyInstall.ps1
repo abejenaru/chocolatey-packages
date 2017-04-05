@@ -1,8 +1,8 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
-$packageName    = '{{PackageName}}'
-$packageVersion = '{{PackageVersion}}'
-$url            = '{{DownloadUrl}}'
+$packageName    = 'microsoft-r-open'
+$packageVersion = '3.3.3'
+$url            = 'https://mran.microsoft.com/install/mro/3.3.3/microsoft-r-open-3.3.3.exe'
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
@@ -22,11 +22,11 @@ $packageArgs = @{
 
   softwareName  = 'Microsoft R Open*'
 
-  checksum64    = '{{Checksum}}'
+  checksum64    = '7a752f887e24e9085fd8888b38a162e3647c0204033d8025f138414ef360a729'
   checksumType64= 'sha256'
 
-  silentArgs    = "/s /full /install"
-  validExitCodes= @(0)
+  silentArgs    = '/verysilent /suppressmsgboxes'
+  validExitCodes= @(0, 3010)
 }
 
 Install-ChocolateyPackage @packageArgs
