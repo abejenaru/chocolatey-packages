@@ -25,16 +25,20 @@ $packageArgs = @{
   checksum64    = '{{Checksum}}'
   checksumType64= 'sha256'
 
-  silentArgs    = "/s /full /install"
-  validExitCodes= @(0)
+  silentArgs    = "/quiet"
+  validExitCodes = @(
+    0, # success
+    3010, # success, restart required
+    2147781575 # pending restart required
+  )
 }
 
 Install-ChocolateyPackage @packageArgs
 
-# Create desktop shortcut
-$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-$installDir = "$env:ProgramFiles\Microsoft\MRO-$packageVersion"
-$link = Join-Path $desktop "Microsoft R Open.lnk"
-if (!(Test-Path $link)) {
-    Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$installDir\bin\x$osBitness\rgui.exe"
-}
+# # Create desktop shortcut
+# $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+# $installDir = "$env:ProgramFiles\Microsoft\MRO-$packageVersion"
+# $link = Join-Path $desktop "Microsoft R Open.lnk"
+# if (!(Test-Path $link)) {
+#     Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$installDir\bin\x$osBitness\rgui.exe"
+# }
