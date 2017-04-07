@@ -25,8 +25,12 @@ $packageArgs = @{
   checksum64    = '7a752f887e24e9085fd8888b38a162e3647c0204033d8025f138414ef360a729'
   checksumType64= 'sha256'
 
-  silentArgs    = '/verysilent /suppressmsgboxes'
-  validExitCodes= @(0, 3010)
+  silentArgs    = "/Quiet /NoRestart /Log $env:temp\microsoft-r-open.log"
+  validExitCodes = @(
+    0, # success
+    3010, # success, restart required
+    2147781575 # pending restart required
+  )
 }
 
 Install-ChocolateyPackage @packageArgs
