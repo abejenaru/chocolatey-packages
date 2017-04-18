@@ -6,8 +6,6 @@ $url            = '{{DownloadUrl}}'
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$osBitness      = Get-ProcessorBits
-
 # check OS bitness
 if (!([Environment]::Is64BitOperatingSystem)) {
   Write-Error "Microsoft R Open requires 64bit operating system"
@@ -35,10 +33,9 @@ $packageArgs = @{
 
 Install-ChocolateyPackage @packageArgs
 
-# # Create desktop shortcut
-# $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-# $installDir = "$env:ProgramFiles\Microsoft\MRO-$packageVersion"
-# $link = Join-Path $desktop "Microsoft R Open.lnk"
-# if (!(Test-Path $link)) {
-#     Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$installDir\bin\x$osBitness\rgui.exe"
-# }
+# Create desktop shortcut
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+$link = Join-Path $desktop "Microsoft R Open.lnk"
+if (!(Test-Path $link)) {
+    Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$env:ProgramFiles\Microsoft\R Open\bin\x64\rgui.exe"
+}
