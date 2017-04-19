@@ -1,10 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName    = '{{PackageName}}'
-$packageVersion = '{{PackageVersion}}'
-$url            = '{{DownloadUrl}}'
+$packageName= '{{PackageName}}'
+$url        = '{{DownloadUrl}}'
 
-$toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 # check OS bitness
 if (!([Environment]::Is64BitOperatingSystem)) {
@@ -36,6 +35,4 @@ Install-ChocolateyPackage @packageArgs
 # Create desktop shortcut
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $link = Join-Path $desktop "Microsoft R Open.lnk"
-if (!(Test-Path $link)) {
-    Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$env:ProgramFiles\Microsoft\R Open\bin\x64\rgui.exe"
-}
+Install-ChocolateyShortcut -ShortcutFilePath "$link" -TargetPath "$env:ProgramFiles\Microsoft\R Open\bin\x64\rgui.exe"
