@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kubernetes-cli</id>
-    <version>1.6.1</version>
+    <version>1.6.2</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
     <title>kubectl: Kubernetes command line tool</title>
