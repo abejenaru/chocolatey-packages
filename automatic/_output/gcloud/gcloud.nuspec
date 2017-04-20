@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gcloud</id>
+    <version>152.0.0</version>
+    <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
+    <owners>Andrei Bejenaru</owners>
+    <title>gcloud: Google Cloud SDK Tools</title>
+    <authors>Google</authors>
+    <projectUrl>https://cloud.google.com/sdk</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/kubernetes.png</iconUrl>
+    <copyright>(c) 2017 Google</copyright>
+    <licenseUrl>https://cloud.google.com/sdk</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://cloud.google.com/sdk</projectSourceUrl>
+    <docsUrl>https://cloud.google.com/sdk/docs</docsUrl>
+    <bugTrackerUrl>https://cloud.google.com/sdk</bugTrackerUrl>
+    <tags>gcloud sdk devops cli</tags>
+    <summary>Command-line interface for Google Cloud Platform products and services.</summary>
+    <description>zzz</description>
+    <releaseNotes>zzz</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
