@@ -26,5 +26,4 @@ Install-ChocolateyPackage @packageArgs
 try {
   Start-ChocolateyProcessAsAdmin "&python -m pip install ipykernel"
   Start-ChocolateyProcessAsAdmin "&python -m ipykernel install --user"    
-} catch {
-}
+} catch {}

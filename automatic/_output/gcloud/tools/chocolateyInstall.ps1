@@ -1,5 +1,4 @@
 $packageName    = 'gcloud'
-$packageVersion = '152.0.0'
 $url            = 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-152.0.0-windows-x86-bundled-python.zip'
 $url64          = 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-152.0.0-windows-x86_64-bundled-python.zip'
 $checksum       = 'b0c89396f7355465ccb58b6c8e1e57757013b5bde702dbb2bf6ca7b4a97dd695'
@@ -18,5 +17,9 @@ $files = get-childitem "$toolsDir" -include *.exe -recurse
 foreach ($file in $files) {
   New-Item "$file.ignore" -type file -force | Out-Null
 }
+Install-BinFile -Name "gcloud" -Path "$toolsDir\google-cloud-sdk\bin\gcloud.cmd"
 
-& "$toolsDir\google-cloud-sdk\install.bat"
+# Setup gcloud
+try {
+    call google-cloud-sdk\install.bat
+} catch {}

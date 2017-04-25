@@ -1,5 +1,4 @@
 ﻿$packageName    = '{{PackageName}}'
-$packageVersion = '{{PackageVersion}}'
 $url            = '{{DownloadUrl}}'
 $url64          = '{{DownloadUrlx64}}'
 $checksum       = '{{Checksum}}'
@@ -18,5 +17,9 @@ $files = get-childitem "$toolsDir" -include *.exe -recurse
 foreach ($file in $files) {
   New-Item "$file.ignore" -type file -force | Out-Null
 }
+Install-BinFile -Name "gcloud" -Path "$toolsDir\google-cloud-sdk\bin\gcloud.cmd"
 
-call google-cloud-sdk\install.bat
+# Setup gcloud
+try {
+    call google-cloud-sdk\install.bat
+} catch {}
