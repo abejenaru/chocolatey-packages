@@ -8,13 +8,13 @@
     <title>Software Ideas Viewer</title>
     <authors>Dušan Rodina</authors>
     <projectUrl>https://www.softwareideas.net</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/software-ideas-modeler.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/16e4ddf69bd7dfc07597b7b3aaa7d8372eeec7fb/icons/software-ideas-modeler.png</iconUrl>
     <copyright>(c) 2009-2017 Dušan Rodina</copyright>
     <licenseUrl>https://www.softwareideas.net/en/about/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://www.softwareideas.net/en/help</docsUrl>
     <bugTrackerUrl>https://www.softwareideas.net/en/requests</bugTrackerUrl>
-    <tags>uml bpmn CASE diagram modeler modeling tool viewer admin</tags>
+    <tags>uml bpmn CASE diagram modeler modeling tool viewer admin freeware</tags>
     <summary>Free viewer for Software Ideas Modeler Projects (.simp files)</summary>
     <description>Diagram software with UML, SysML, ERD, BPMN, ArchiMate, flowcharts, user stories, wireframe support</description>
     <releaseNotes>https://www.softwareideas.net/en/news</releaseNotes>

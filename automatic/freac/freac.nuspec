@@ -1,21 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>freac</id>
     <version>{{PackageVersion}}</version>
     <packageSourceUrl>https://github.com/abejenaru/chocolatey-packages</packageSourceUrl>
     <owners>Andrei Bejenaru</owners>
-    <title>fre:ac - free audio converter</title>
+    <title>fre:ac - free audio converter (Portable)</title>
     <authors>Robert Kausch</authors>
     <projectUrl>https://www.freac.org</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/1b6e898a5cc0662c2b4b1ee014baafa95626ed66/icons/freac.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/abejenaru/chocolatey-packages/16e4ddf69bd7dfc07597b7b3aaa7d8372eeec7fb/icons/freac.png</iconUrl>
     <copyright>(c) 2017 Robert Kausch</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/p/bonkenc/code</projectSourceUrl>
     <docsUrl>https://www.freac.org/index.php/en/help-aamp-support-mainmenu-36</docsUrl>
     <bugTrackerUrl>https://sourceforge.net/p/bonkenc/bugs</bugTrackerUrl>
-    <tags>freac audio music codec media convert extract encoder ripper</tags>
+    <tags>freac audio music codec media convert extract encoder ripper foss</tags>
     <summary>fre:ac is a free audio converter and CD ripper with support for various popular formats and encoders.</summary>
     <description>Features:
 * Converts between MP3, MP4/M4A, WMA, Ogg Vorbis, FLAC, AAC and Bonk formats
@@ -24,8 +24,8 @@
 * Portable application to install on a USB drive and run everywhere
 * Completely free and open source without any ads or other malware</description>
     <releaseNotes>https://www.freac.org/index.php/en/latest-news-mainmenu-2</releaseNotes>
-    <dependencies>
-      <dependency id="freac.portable" version="[{{PackageVersion}}]"/>
-    </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
